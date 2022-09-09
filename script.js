@@ -29,7 +29,9 @@ function func() {
     score.textContent--;
   }
 
-  changebackground();
+  if (yourguess.value != ans) {
+    changebackground();
+  }
 }
 
 function reset() {
