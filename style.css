@@ -24,7 +24,7 @@ header {
 }
 
 main {
-  height: 65vh;
+  height: 60vh;
   color: #dbe2ef;
   display: flex;
   align-items: center;
@@ -110,4 +110,8 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
 }
